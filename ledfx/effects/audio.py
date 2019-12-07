@@ -90,7 +90,7 @@ class AudioInputSource(object):
 
         # Open the audio stream and start processing the input
         self._stream = self._audio.open(
-            input_device_index=self._config['device_index'],
+            #input_device_index=self._config['device_index'],
             format=pyaudio.paFloat32,
             channels=1,
             rate=self._config['mic_rate'],

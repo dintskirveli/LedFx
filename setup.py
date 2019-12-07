@@ -4,7 +4,7 @@ from datetime import datetime as dt
 from setuptools import setup, find_packages
 import ledfx.consts as const
 
-PROJECT_PACKAGE_NAME = 'ledfx'
+PROJECT_PACKAGE_NAME = 'dintskirveli-ledfx'
 PROJECT_VERSION = const.PROJECT_VERSION
 PROJECT_LICENSE = 'The MIT License'
 PROJECT_AUTHOR = 'Austin Hodges'
